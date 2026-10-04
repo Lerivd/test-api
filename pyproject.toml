@@ -7,7 +7,9 @@ authors = [
     { name = "Lerivd", email = "lrivadeneira.pe@hotmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+]
 
 [project.scripts]
 test-api = "test_api:main"
